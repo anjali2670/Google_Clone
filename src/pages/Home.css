@@ -1,0 +1,95 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home__header{
+ display: flex;
+ justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.home__headerLeft{
+  display: flex;
+  align-items: center;
+}
+.home__headerLeft p{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.home__headerRight{
+    display: flex;
+    align-items: center;
+
+}
+.home__headerRight p {
+    margin-right: 20px;
+    font-size: 15px;
+}
+.home__headerRight 	.MuiSvgIcon-root{
+    margin-right: 20px;
+   padding-left: 20px;
+}
+
+
+.home_body{
+ flex: 1;
+ display: flex;
+ margin-top: 10%;
+ flex-direction:column;
+}
+.home_body img{
+  /* height:60%;
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 30%; */
+  object-fit:contain;
+
+  height: 200px;
+}
+
+
+.home__inputContainer{
+
+}
+.add-button{
+    margin-left:48%;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    /* text-align: center; */
+    /* border:1px solid black; */
+    border-radius: 50%;
+    /* background:rgba(211, 211,211.0.22); */
+    /* opacity: 0.33; */
+    background: rgba(211, 211, 211, 0.65)
+   
+}
+
+.addicon{
+    /* border:1px solid grey; */
+    /* border-radu:50%; */
+    /* border-radius: 50%;
+    height: 50px;
+    width: 50px;
+   text-align: center; */
+   padding-left: 11px;
+   padding-top: 12px;
+   /* opacity: ; */
+   
+}
+
+.add-button2{
+    text-align: center;
+}
+.add:hover{
+   
+    display:flex ;
+    background-color: lightgray;
+    height:100px;
+    width:100px ;
+    justify-content: center;
+    align-items: center;
+    margin-left:630px;
+    offset-position: fixed;
+}
